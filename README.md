@@ -1,2 +1,0 @@
-# dotfiles
-tcamba linux stack 
