@@ -25,6 +25,5 @@
     "tui-journal@latest",
     "python@latest",
     "maven@latest",
-    "termshark@latest",
   ],
 }

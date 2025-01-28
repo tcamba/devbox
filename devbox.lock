@@ -1038,54 +1038,6 @@
         }
       }
     },
-    "termshark@latest": {
-      "last_modified": "2025-01-25T23:17:58Z",
-      "resolved": "github:NixOS/nixpkgs/b582bb5b0d7af253b05d58314b85ab8ec46b8d19#termshark",
-      "source": "devbox-search",
-      "version": "2.4.0",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/pjd62674zh5j6vrfz375pmvkypspcwmy-termshark-2.4.0",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/pjd62674zh5j6vrfz375pmvkypspcwmy-termshark-2.4.0"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/1f2y4gwbydx7xrxmj3552fznfx2afypr-termshark-2.4.0",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/1f2y4gwbydx7xrxmj3552fznfx2afypr-termshark-2.4.0"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/z43j9icr213vllsrbnrx4c0710zrgl54-termshark-2.4.0",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/z43j9icr213vllsrbnrx4c0710zrgl54-termshark-2.4.0"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/002npr37x2w90lj77afmfcfv3lmrfwhb-termshark-2.4.0",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/002npr37x2w90lj77afmfcfv3lmrfwhb-termshark-2.4.0"
-        }
-      }
-    },
     "tftui@latest": {
       "last_modified": "2025-01-25T23:17:58Z",
       "resolved": "github:NixOS/nixpkgs/b582bb5b0d7af253b05d58314b85ab8ec46b8d19#tftui",
