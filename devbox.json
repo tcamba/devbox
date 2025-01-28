@@ -1,14 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.10.7/.schema/devbox.schema.json",
   "packages": [
-    "zellij@latest",
     "lazydocker@latest",
     "lazygit@latest",
     "k9s@latest",
     "go@latest",
     "pdm@latest",
     "tftui@latest",
-    "termshark@latest",
     "chisel@latest",
     "tealdeer@latest",
     "trippy@latest",
@@ -27,16 +25,6 @@
     "tui-journal@latest",
     "python@latest",
     "maven@latest",
-    "nerdfonts@latest",
+    "termshark@latest",
   ],
-  "shell": {
-    "init_hook": [
-      "zellij options --theme dracula",
-    ],
-    "scripts": {
-      "test": [
-        "echo \"Error: no test specified\" && exit 1",
-      ],
-    },
-  },
 }
