@@ -1,24 +1,29 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.10.7/.schema/devbox.schema.json",
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.0/.schema/devbox.schema.json",
   "packages": [
-    "lazydocker@latest",
-    "lazygit@latest",
-    "k9s@latest",
-    "go@latest",
-    "tftui@latest",
-    "chisel@latest",
-    "tealdeer@latest",
-    "trippy@latest",
-    "doggo@latest",
-    "rm-improved@latest",
+    "micro@latest",
     "kubectl@latest",
-    "ugrep@latest",
-    "httpie@latest",
-    "mosh@latest",
-    "broot@latest",
-    "diff-so-fancy@latest",
-    "pop@latest",
-    "ouch@latest",
-    "tui-journal@latest",
+    "awscli2@latest",
+    "k9s@latest",
+    "rm-improved@latest",
+    "doggo@latest",
+    "tealdeer@latest",
+    "terraform@latest",
+    "bat@latest",
+    "sd@latest",
+    "procs@latest",
+    "exa@latest",
+    "dust@latest",
+    "broot@latest"
   ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
 }
