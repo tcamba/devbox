@@ -14,9 +14,16 @@
     "procs@latest",
     "exa@latest",
     "dust@latest",
-    "broot@latest",
     "helm@latest",
-    "helmfile@latest"
+    "helmfile@latest",
+    "starship@latest",
+    "mosh@latest",
+    "chisel@latest",
+    "passepartui@latest",
+    "flameshot@latest",
+    "superfile@latest",
+    "ouch@latest",
+    "uv@latest"
   ],
   "shell": {
     "init_hook": [
